@@ -78,7 +78,7 @@ Message text, it should answer the question "what have you done."
 - Use **NaughtyAttribute** to its fullest. Use **[GroupBox]** or **[FoldOut]** to group variables together, **[InfoBox]** to show the information on the Unity Inspector without going into the code, etc. For more information refer to [this documentation](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/xmldoc/recommended-tags)
 - If possible, please comment on your code using XML Documentation comment `///`. For more information, refer to [this document](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/xmldoc/recommended-tags)
 
-## Foler Structure
+## Folder Structure
 
 Create Sub-folder for group of certain file type
 - `/Scripts` for every custom C# scripts
