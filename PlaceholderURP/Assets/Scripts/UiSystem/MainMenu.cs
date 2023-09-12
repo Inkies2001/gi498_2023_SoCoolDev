@@ -2,27 +2,43 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using static System.TimeZoneInfo;
 
 public class MainMenu : MonoBehaviour
 {
+    public Animator transition;
+
+    public float transitiontTime = 1f;
+
     public void PlayGame()
     {
-        SceneManager.LoadScene(0);
-
+        StartCoroutine (LoadLevel(0));
+       
     }
 
     public void GotoSettingMenu()
     {
-        SceneManager.LoadScene(1);
+        StartCoroutine(LoadLevel(1));
     }
 
     public void GotoMianMenu()
     {
-        SceneManager.LoadScene(2);
+        StartCoroutine(LoadLevel(2));
     }
 
     public void QuitGame()
     {
         Application.Quit();
+    }
+
+    IEnumerator LoadLevel(int levelIndex)
+    {
+        transition.SetTrigger("Start");
+
+        yield return new WaitForSeconds(transitiontTime);
+
+       SceneManager.LoadScene(levelIndex);
+
+       
     }
 }
