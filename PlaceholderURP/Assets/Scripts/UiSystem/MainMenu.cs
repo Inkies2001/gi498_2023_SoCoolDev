@@ -18,12 +18,12 @@ public class MainMenu : MonoBehaviour
 
     public void GotoSettingMenu()
     {
-        StartCoroutine(LoadLevel(1));
+        StartCoroutine(LoadLevel(2));
     }
 
     public void GotoMianMenu()
     {
-        StartCoroutine(LoadLevel(2));
+        StartCoroutine(LoadLevel(3));
     }
 
     public void QuitGame()

@@ -1334,7 +1334,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6760474147919511537, guid: bebf1967d41db7444a18cbcbc183d1c7, type: 3}
       propertyPath: m_Name
-      value: LoadLevel
+      value: GmaeManager
       objectReference: {fileID: 0}
     - target: {fileID: 6760474147919511537, guid: bebf1967d41db7444a18cbcbc183d1c7, type: 3}
       propertyPath: m_IsActive
