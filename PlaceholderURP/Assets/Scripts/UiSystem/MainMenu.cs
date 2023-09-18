@@ -26,6 +26,11 @@ public class MainMenu : MonoBehaviour
         StartCoroutine(LoadLevel(3));
     }
 
+    public void GotoGallery()
+    {
+        StartCoroutine(LoadLevel(4));
+    }
+
     public void QuitGame()
     {
         Application.Quit();

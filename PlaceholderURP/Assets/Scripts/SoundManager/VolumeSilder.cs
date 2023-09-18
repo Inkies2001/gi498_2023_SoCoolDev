@@ -10,7 +10,7 @@ public class VolumeSilder : MonoBehaviour
 
     void Start()
     {
-        
+
         SoundManager.Instance.ChangeMasterVolume(volumeSlider.value);
         
         volumeSlider.onValueChanged.AddListener(val  => SoundManager.Instance.ChangeMasterVolume(val));
