@@ -2308,6 +2308,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Loading
       objectReference: {fileID: 0}
+    - target: {fileID: 2516148395135768461, guid: a93b9641c3e931e4d8ad6f7005b3f694, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4639861349287937666, guid: a93b9641c3e931e4d8ad6f7005b3f694, type: 3}
       propertyPath: m_Alpha
       value: 0
@@ -2406,6 +2410,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1488311187162496090, guid: bebf1967d41db7444a18cbcbc183d1c7, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1488311187162496090, guid: bebf1967d41db7444a18cbcbc183d1c7, type: 3}
       propertyPath: m_AdditionalShaderChannelsFlag
       value: 25
       objectReference: {fileID: 0}
@@ -2458,6 +2466,10 @@ PrefabInstance:
       value: SceneManager
       objectReference: {fileID: 0}
     - target: {fileID: 6760474147919511537, guid: bebf1967d41db7444a18cbcbc183d1c7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7498913180590119551, guid: bebf1967d41db7444a18cbcbc183d1c7, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
