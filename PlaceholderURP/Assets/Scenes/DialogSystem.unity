@@ -2356,9 +2356,29 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 195127740}
     m_Modifications:
+    - target: {fileID: 1587678923901622173, guid: 6d74aff50a812824eb085667ce1d5e64, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587678923901622173, guid: 6d74aff50a812824eb085667ce1d5e64, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587678923901622173, guid: 6d74aff50a812824eb085667ce1d5e64, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2002130913780888904, guid: 6d74aff50a812824eb085667ce1d5e64, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3452546834284682280, guid: 6d74aff50a812824eb085667ce1d5e64, type: 3}
       propertyPath: m_Name
       value: SettingMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 3452546834284682280, guid: 6d74aff50a812824eb085667ce1d5e64, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5540281637119862838, guid: 6d74aff50a812824eb085667ce1d5e64, type: 3}
       propertyPath: m_Pivot.x
@@ -2444,6 +2464,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 899997153}
+    - target: {fileID: 6260038100285347948, guid: 6d74aff50a812824eb085667ce1d5e64, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6260038100285347948, guid: 6d74aff50a812824eb085667ce1d5e64, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
