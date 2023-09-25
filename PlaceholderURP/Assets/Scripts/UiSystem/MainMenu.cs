@@ -21,7 +21,7 @@ public class MainMenu : MonoBehaviour
         StartCoroutine(LoadLevel(2));
     }
 
-    public void GotoMianMenu()
+    public void GotoMainMenu()
     {
         StartCoroutine(LoadLevel(3));
     }

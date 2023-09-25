@@ -239,8 +239,16 @@ PrefabInstance:
       value: SoundManager
       objectReference: {fileID: 0}
     - target: {fileID: 5989786611361805448, guid: 0f408e147d9fdf64b80dc78ed5263bb2, type: 3}
+      propertyPath: Loop
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5989786611361805448, guid: 0f408e147d9fdf64b80dc78ed5263bb2, type: 3}
+      propertyPath: m_Pitch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5989786611361805448, guid: 0f408e147d9fdf64b80dc78ed5263bb2, type: 3}
       propertyPath: m_Volume
-      value: 0.1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 5989786611361805448, guid: 0f408e147d9fdf64b80dc78ed5263bb2, type: 3}
       propertyPath: m_audioClip
@@ -488,7 +496,7 @@ RectTransform:
   m_GameObject: {fileID: 1060813877}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 4.500231, y: 1.1604244, z: 0.600867}
+  m_LocalScale: {x: 4.1008353, y: 1.2474562, z: 0.600867}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2136966376}
@@ -496,7 +504,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: 116.2146}
+  m_AnchoredPosition: {x: 0, y: 77}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1060813879
@@ -760,7 +768,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: -235.38373}
+  m_AnchoredPosition: {x: 0, y: -159}
   m_SizeDelta: {x: 468.008, y: 136.14502}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1830041716
