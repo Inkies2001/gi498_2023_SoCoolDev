@@ -11,6 +11,8 @@ public class PauseBotton : MonoBehaviour
     public GameObject SettingMenu;
 
     public static bool isPause;
+
+    public static bool isSetting;
     void Start()
     {
         pauseMenu.SetActive(false);
@@ -21,18 +23,25 @@ public class PauseBotton : MonoBehaviour
 
     void Update()
     {
-        /*if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (isPause)
             {
                 ResumeGame();
 
             }
-            else
+
+            if (isSetting)
             {
-                PauseGame();
+                if (Input.GetKeyDown(KeyCode.Escape))
+                {
+                    SettingMenu.SetActive(false);
+                    Time.timeScale = 1f;
+                    PauseGame();
+                }
             }
-        }*/
+            
+        }
     } 
 
    public void PauseGame()
@@ -57,9 +66,12 @@ public class PauseBotton : MonoBehaviour
 
     public void SettingAtive()
     {
-        SettingMenu.SetActive(true);
         pauseMenu.SetActive(false);
         Time.timeScale = 1f;
+        SettingMenu.SetActive(true);
+        isSetting = true;
+       
+
     }
 
     public void SettingBack()

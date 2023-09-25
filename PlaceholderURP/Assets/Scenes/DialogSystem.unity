@@ -2370,7 +2370,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2002130913780888904, guid: 6d74aff50a812824eb085667ce1d5e64, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3452546834284682280, guid: 6d74aff50a812824eb085667ce1d5e64, type: 3}
       propertyPath: m_Name
@@ -2378,7 +2378,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3452546834284682280, guid: 6d74aff50a812824eb085667ce1d5e64, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5540281637119862838, guid: 6d74aff50a812824eb085667ce1d5e64, type: 3}
       propertyPath: m_Pivot.x
