@@ -51,7 +51,7 @@ public class DataPersistance : MonoBehaviour
 
     private List<IDataPersistence> FindAllDataPersistenceObjects()
     {
-       // IEnumerable<IDataPersistence> dataPersistenceObjects = FindObjectOfType<MonoBehaviour>().OfType<IDataPersistence>();
+            //IEnumerable<IDataPersistence> dataPersistenceObjects = FindObjectOfType<MonoBehaviour>().OfType<IDataPersistence>();
 
         return new List<IDataPersistence>(dataPersistenceObjects);
     } 
